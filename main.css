@@ -1,0 +1,219 @@
+/*reset*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a {text-decoration: none;overflow: hidden;outline: none;}
+a:-webkit-any-link {color: -webkit-link;cursor: auto;text-decoration: none;}
+/*common*/
+body{
+    position: relative;
+}
+.bg{
+    width: 100%;
+    min-width: 1000px;
+}
+.bg1{
+    height: 264px;
+    background: url("images/bg1-1.jpg") center top no-repeat;
+}
+.bg1-2{
+    height: 271px;
+    background: url("images/bg1-2.jpg") center top no-repeat;
+}
+.bg1-3{
+    height: 346px;
+    background: url("images/bg1-3.jpg") center top no-repeat;
+}
+.bg2{
+    height: 787px;
+    background: url("images/bg2.jpg") center top no-repeat;
+}
+.bg3{
+    height: 711px;
+    background: url("images/bg3.jpg") center top repeat-x;
+}
+.bg4{
+    height: 582px;
+    background: url("images/bg4.jpg") center top no-repeat;
+}
+.bg5{
+    height: 622px;
+    background: url("images/bg5.jpg") center top no-repeat;
+}
+.content{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.bg-title{
+    float: left;
+    width: 74px;
+    height: 80px;
+    margin-right: 20px;
+}
+.common-title{
+    font-size: 32px;
+    color: #f5e1bf;
+}
+.common-text{
+    line-height: 40px;
+    font-size: 18px;
+    color: #a89776;
+}
+.content-text-yellow{color: #d49456;}
+
+.bg2-title{
+    background: url("images/one.png") center center no-repeat;
+}
+.bg3-title{
+    background: url("images/two.png") center center no-repeat;
+}
+.bg4-title{
+    background: url("images/three.png") center center no-repeat;
+}
+.bg5-title{
+    background: url("images/four.png") center center no-repeat;
+}
+.btn{
+    display: block;
+    margin: 42px auto 32px;
+    width: 352px;
+    height: 68px;
+}
+.bg-text{
+    text-align: center;
+    font-size: 20px;
+    color: #a89776;
+}
+
+/*bg1*/
+.logo{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    display: block;
+    width: 176px;
+    height: 87px;
+    background: url("images/logo.png") center center no-repeat;
+}
+.top-other{
+    position: absolute;
+    top: 50px;
+    right: 0;
+    clear: both;
+    zoom: 1;
+    height: 32px;
+}
+/*bg1*/
+.share-title{
+    float: left;
+    line-height: 38px;
+}
+.share-title a{
+    color: black;
+    cursor: pointer;
+}
+.return-home{
+    float: left;
+    width: 132px;
+    height: 38px;
+    background: url("images/return-home.png") center center no-repeat;
+}
+/*bg2*/
+.bg2 .bg2-city{
+    position: relative;
+    width: 648px;
+    height: 689px;
+    margin: -50px auto 0;
+    background: url("images/city-bg.png");
+}
+.bg2-ig-city{
+    position: absolute;
+    top: 190px;
+    left: 144px;
+
+}
+.bg2-date{
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #00726e;
+    background: url("images/crystal.png") center center no-repeat;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #00726e;
+}
+.bg2-year{
+    top: 70px;
+    left: 282px;
+}
+.bg2-month{
+    top: 303px;
+    left: 47px;
+}
+.bg2-day{
+    top: 303px;
+    right: 46px;
+}
+.bg2-guide{
+    position: absolute;
+    bottom: -24px;
+    right: 194px;
+    width: 265px;
+    height: 265px;
+    background: url("images/guide.png")center center no-repeat;
+}
+
+/*bg3*/
+.bg3-card{
+    min-height: 382px;
+    *float: left;
+}
+.bg3-card li{
+    float: left;
+    width: 250px;
+    height: 392px;
+    cursor: pointer;
+}
+.bg3-card .zy{
+    background: url("images/zy2.png") bottom center no-repeat;
+}
+.bg3-card .mgy{
+    background: url("images/mgy1.png") bottom center no-repeat;
+}
+.bg3-card .mgy.on{
+    background: url("images/mgy2.png") bottom center no-repeat;
+}
+.bg3-card .lb{
+    background: url("images/lb1.png") bottom center no-repeat;
+}
+.bg3-card .lb.on{
+    background: url("images/lb2.png") bottom center no-repeat;
+}
+.bg3-card .dj{
+    background: url("images/dj1.png") bottom center no-repeat;
+}
+.bg3-card .dj.on{
+    background: url("images/dj2.png") bottom center no-repeat;
+}
+.bg3-btn-invite{
+    background: url("images/btn-invite.png") center center no-repeat;
+}
+/*bg4*/
+.bg4-btn-parcel{
+    background: url("images/btn-parcel.png");
+}

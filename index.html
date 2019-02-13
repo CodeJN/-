@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="bg bg1">
+    <div class="content">
+        <a class="logo"></a>
+        <div class="top-other">
+             <span class="share-title">欢迎您，请【<a href="#">登录</a>】</span>
+             <span class="share-title" style="display: none;">XXXXXX【注销】</span>
+             <a class="return-home" href="#"></a>
+        </div>
+    </div>
+</div>
+<div class="bg bg1-2"></div>
+<div class="bg bg1-3"></div>
+<div class="bg bg2">
+    <div class="content">
+        <div class="bg-title bg2-title"></div>
+            <p class="common-title bg2-title-text">/ 趋利避祸，接引天命星，点亮我的王朝</p>
+            <p class="common-text bg2-text">亘古及今，天王将相，恪谨天命。<span class="content-text-yellow">点击输入你的出生日期</span>，接引天命星，点亮属于你的王朝。</p>
+        <div class="bg2-city">
+            <img class="bg2-ig-city" src="images/city.png" alt="">
+            <input class="bg2-date bg2-year"  type="text" placeholder="年" maxlength="4">
+            <input class="bg2-date bg2-month"  type="text" placeholder="月" maxlength="2">
+            <input class="bg2-date bg2-day"  type="text" placeholder="日" maxlength="2">
+            <a class="bg2-guide" href="#"></a>
+        </div>
+    </div>
+</div>
+<div class="bg bg3">
+    <div class="content">
+        <div class="bg-title bg3-title"></div>
+        <p class="common-title bg3-title-text">/ 集聚英雄，共同守护我的王朝</p>
+        <p class="common-text bg3-text">想成就一番霸业，少不了好友帮忙，<span class="content-text-yellow">将古代英魂赐予好友</span>，可召唤英雄，共同守护我的王朝。</p>
+            <ul class="bg3-card">
+                <li class="zy on"></li>
+                <li class="mgy"></li>
+                <li class="lb"></li>
+                <li class="dj"></li>
+            </ul>
+        <a class="bg3-btn-invite btn" href="#"></a>
+        <p class="bg-text bg3-text">召唤全部英雄，可在下方领取英雄礼包</p>
+    </div>
+</div>
+<div class="bg bg4">
+    <div class="content">
+        <div class="bg-title bg4-title"></div>
+        <p class="common-title bg4-title-text">/ 天宫赐福，领取丰富开疆礼包</p>
+        <p class="common-text bg4-text">本活动期限内，下载游戏，<span>即送三大好礼</span>，还有<span class="content-text-yellow"></span>等你哦，赶紧分享小伙伴，一起拿礼包玩游戏吧！</p>
+        <img class="parcel" src="images/parcel.png" alt="">
+        <a class="bg4-btn-parcel btn" href="#"></a>
+        <p class="bg-text bg4-text">召唤全部英雄，可在下方领取英雄礼包</p>
+    </div>
+</div>
+<div class="bg bg5">
+    <div class="content">
+        <div class="bg-title bg5-title"></div>
+        <p class="common-title bg5-title-text" style="line-height: 80px; margin-bottom: 30px;">/ 活动规则</p>
+        <ol class="common-text bg5-text">
+            <li>1&nbsp &nbsp活动时间：<span class="content-text-yellow">2018年5月16日至6月15日24点</span>；</li>
+            <li>2&nbsp &nbsp在活动期限内，每成功邀请一名好友可复活英雄，英雄卡牌将翻回正面,复活全部英雄，即可领取英雄礼包；</li>
+            <li>3&nbsp &nbsp成功下载游戏的新用户，可获得下载礼包，<span class="content-text-yellow">老用户通过复活英雄，亦可获得英雄礼包</span>；</li>
+            <li>4&nbsp &nbsp所有礼包<span class="content-text-yellow">每个账号仅可领取一次</span> ；</li>
+            <li>5&nbsp &nbsp在发育允许范围内，本活动最终解释权归腾讯所有</li>
+        </ol>
+    </div>
+</div>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+    $(function () {
+        function Dream(){
+            var list = $('.bg3-card').children('li');
+        $(list).hover(function (){
+            $(this).addClass('on');
+        },function (){
+            $(this).removeClass('on');
+        });
+    };    Dream();
+});
+</script>
+</body>
+</html>
